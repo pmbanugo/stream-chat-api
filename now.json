@@ -1,0 +1,10 @@
+{
+	"name": "stream-chat-auth-api",
+	"version": 2,
+	"env": {
+		"MONGODB_URI": "@mongodb-uri",
+		"STREAM_API_KEY": "@chat-key",
+		"STREAM_API_SECRET": "@chat-secret"
+	},
+	"regions": ["bru1"]
+}

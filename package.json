@@ -1,18 +1,17 @@
 {
 	"name": "stream-chat-boilerplate-api",
 	"version": "0.0.1",
-	"description": "Stream Chat Boilerplate API",
+	"description": "Stream Chat Auth API",
 	"engines": {
 		"node": ">=12.13.0"
 	},
 	"scripts": {
-		"postinstall": "rm -rf dist && yarn run build",
-		"build": "babel src --out-dir dist",
+		"transpile": "babel src --out-dir dist",
 		"start": "node dist/index.js",
 		"dev": "nodemon --exec npx babel-node src/index.js",
 		"lint": "yarn prettier --write --check --config ./.prettierrc \"**/*.js\" && eslint --fix ./src"
 	},
-	"author": "Nick Parsons <nparsons08@gmail.com>",
+	"author": "Peter Mbanugo <p.mbanugo@yahoo.com>",
 	"license": "MIT",
 	"dependencies": {
 		"@babel/cli": "^7.7.7",

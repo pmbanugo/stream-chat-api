@@ -26,6 +26,8 @@ This API will quickly get you up to speed on best practices for deploying an aut
 }
 ```
 
+If you deployed to Zeit Now, the path will be `https://your-domarin/api/auth
+
 ## Technology Used
 
 The following technologies were used to build this API:
@@ -74,9 +76,13 @@ The easiest method to deploy this API to Heroku is to click the deploy button be
 
 ![Heroku Settings](https://i.imgur.com/YtjurK9.png)
 
+### Zeit Now
+
+See this [tutorial](#)
+
 ## Docker
 
-> Note: A Dockerfile is also available with associated scripts located in the `scripts` directory. Use this if you would like to deply to AWS/GCP/Kubernetes. 
+> Note: A Dockerfile is also available with associated scripts located in the `scripts` directory. Use this if you would like to deply to AWS/GCP/Kubernetes.
 
 ### Required Environment Variables
 
